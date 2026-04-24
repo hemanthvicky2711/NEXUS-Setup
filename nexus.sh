@@ -10,7 +10,6 @@ sudo yum install java-21-amazon-corretto -y
 java -version
 
 #Do not run Nexus Repository from a user's home directory for production deployments; a common practice is to use the /opt directory.
-mkdir /opt
 cd /opt
 
 #Download the nexus repository
